@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+{% block title %} Power of Model {%endblock title%}
+
+{% block content %}
+
+<p>
+    Given the dataset, the model is implemented based on a classification task. Model is implemented in deep learning library Tensorflow and the Model is selected as pretrained model VGGNet16
+</p>
+<span style="color: black;font-weight: bold;">Information of Model</span>
+<ul> 
+Loss and Accuracy Line Chart  
+ <li style="display: block;"><img height="300px" src="{{ url_for('static', filename='images/tahmingrafik.png')}}" alt="not openning"></li>
+ Classification Report <br>
+ <li style="display: block;"><img height="220px"  src="{{ url_for('static', filename='images/classificationreport.png')}}" alt="not openning"></li>
+ Confusion Matrix <br>
+ <li style="display: block;"><img  height="350px"  src="{{ url_for('static', filename='images/confusionmatrix.png')}}" alt="not openning"></li>
+
+</ul>
+{% endblock %}

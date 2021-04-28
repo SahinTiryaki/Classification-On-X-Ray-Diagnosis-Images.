@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block title %} Classify Page {%endblock title%}
+
+{% block content %}
+
+
+  <div class="container" style="text-align: center;">
+    <img class="pred_img" style="width: 200px;height: 200px;" src="{{ url_for('send_file', filename=image_file_name)}}"/>
+  </div>
+  <p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;padding: 10px;margin-top: 20px;background-color: lightgreen;">Normal Probility: {{normal}} %</p>
+  <p style="font-size: 20px;font-family: 'Times New Roman', Times, serif;padding: 10px;margin-top: 20px;background-color: lightblue;">Phnuomania Probility: {{anomaly}} %</p>
+
+{% endblock  content %}
