@@ -1,7 +1,9 @@
 # Classification On  X-Ray Diagnosis Images
 
 <a  style = "color:red;" href="https://www.kaggle.com/sahintiryaki/xray-pneumonia-detection-90">Go Kaggle Notebook</a> <br>
+## Application Video
 
+![](https://github.com/SahinTiryaki/Classification-On-X-Ray-Diagnosis-Images./blob/main/static/images/app.gif)
 
 ## Data :orange_book:
 
@@ -35,6 +37,7 @@ Line Cart about train dataset and validation  dataset<br>
   Confusion Matrix <br>
      <img src="https://github.com/SahinTiryaki/Classification-On-X-Ray-Diagnosis-Images./blob/main/static/images/confusionmatrix.png" height="300" width="500" >
  </p>
+
  <p>
   Classification Report <br>
      <img src="https://github.com/SahinTiryaki/Classification-On-X-Ray-Diagnosis-Images./blob/main/static/images/classificationreport.png" height="150" width="350" >
@@ -45,7 +48,7 @@ Line Cart about train dataset and validation  dataset<br>
 If you are thinking of using this project, you should use this commands. <br>
 
 ```  
-  git clone  https://github.com/SahinTiryaki/Classification-On-X-Ray-Diagnosis-Images.git
+  git clone  https://github.com/SahinTiryaki/Classification-On-X-Ray-Diagnosis-Images..git
     
 ```
 
